@@ -5,3 +5,33 @@ import re
 #1.简单字符串查找
 str1 = 'dog runs to cat'
 print(re.search('runs',str1))
+
+#[] 匹配其中的一个
+parttern = r'r[au]n'
+print(re.search(parttern,str))
+
+# - 表示一个范围[a-z]
+parttern = r'r[a-z]n'
+print(re.search(parttern,str1))
+
+#\d 匹配数字
+#\D 匹配非数字
+
+# \s 匹配空白字符
+# \S 匹配非空白字符
+# \w 匹配所有数字字母和_
+# \W 与上面相反
+# \b 匹配首尾空白字符\brun\b 字符串与\b之间不能有空格
+# \B 同上，可以有空格
+# . 匹配除\n之外的所有字符
+# ^$ 句首句尾
+# ？可有可无
+# 多行匹配
+print(re.search(parttern,str1,flags=re.M))
+# + * {n,m} 重复一次或多次
+#group:表示匹配结果里的组
+#?P<name> :为组别加别名name
+#findall：找到所有匹配结果
+#|：表示取或
+# sub：替换
+# split：分隔
