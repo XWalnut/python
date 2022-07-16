@@ -13,6 +13,8 @@ print(company_list.index('Tencent'))
 
 #排序
 company_list.sort(reverse=True)
+# 将排序后的结果放入一个临时列表
+sorted(company_list,reverse=True)
 
 #反转
 company_list.reverse()
