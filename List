@@ -18,3 +18,10 @@ sorted(company_list,reverse=True)
 
 #反转
 company_list.reverse()
+
+#二维列表
+friends = []
+name = ['Niumei', 'YOLO', 'Niu Ke Le', 'Mona']
+friends.append(name)
+food = ['pizza', 'fish', 'potato', 'beef']
+friends.append(food)
