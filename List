@@ -1,0 +1,18 @@
+company_list = ['Alibaba', 'Baidu', 'Tencent', 'MeiTuan', 'JD']
+# 增删改查
+company_list.append('Huawei')
+company_list.insert(0,'Xiaomi')
+
+company_list.remove('Baidu')
+company_list.pop()
+del company_list[1]
+
+company_list[1]='Apple'
+# 查找索引
+print(company_list.index('Tencent'))
+
+#排序
+company_list.sort(reverse=True)
+
+#反转
+company_list.reverse()
