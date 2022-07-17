@@ -32,7 +32,7 @@ print(re.search(parttern,str1,flags=re.M))
 #group:表示匹配结果里的组
 #?P<name> :为组别加别名name
 #findall：找到所有匹配结果
-#|：表示取或
+#|：表示取或，注意这里取或是整个的取或，例如 25[0-5]|24\d表示在25[0-5]和24\d之间取或
 # sub：替换
 # split：分隔
 # findall查找所有符合条件的组，并放入列表中
