@@ -35,3 +35,5 @@ print(re.search(parttern,str1,flags=re.M))
 #|：表示取或
 # sub：替换
 # split：分隔
+# findall查找所有符合条件的组，并放入列表中
+# search：查找满足条件的第一个
