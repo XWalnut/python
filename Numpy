@@ -1,0 +1,40 @@
+# 创建数组
+import numpy as np
+a = np.arange(start,stop,step).reshpa((2,3,4))# (2,3,4)表示数组的形状
+a = np.array(range())
+a = np.arrange(sequence)# 这里的sequence可以是列表或者元组
+# 创建指定数据的数组
+a = np.zeros((2，3，4),dtype=float)#创建形状为（2，3，4）的全0数组
+a = np.ones()
+a = np.full(shape,value,dtype)# 创建大小为shape，值为value，类型为dtype的数组
+
+b = np.zeros_like(a,dtype)#创建形状与a一样的数组
+b = np.ones_like()
+b = np.full_like()
+
+# 改变数组形状
+c = b.reshape()#这里b不会改变形状，需要赋值给c
+
+# 索引和切片
+d[1:2,3:4]#取d中第一行，第三列的数
+# 布尔索引
+d[d[:,3]>5,3]# 取第三列值大于5的数据
+# 神奇索引
+d[[1,2],[3,4]] # 取 (1,3),(2,4)坐标的数据
+
+# 数组的运算都是数组内单个元素进行运算
+# 广播原则：在进行计算时，如果两个数组间的后缘数轴相同或者其中一方的长度为1，则认为广播是兼容的
+# 转置
+d.transpose()
+d.swapaxes(1,2)# 将第1轴与第2轴进行转换
+
+#np.random.shuffle(a) # 洗牌，多维数组按最高维进行洗牌
+
+# np.random函数库
+# np.random.rand()#(0,1)随机值
+# np.random.randn() # 正态分布随机数
+# np.random.randint() # 随机整数
+# np.random.random() # 0.0到1.0之间的随机小数
+# np.random.choice(range(1,10),size=(2，3)) #在1-10之间随机选择一个2x3的矩阵,可放回采样
+# np.random.permutation(10) # 全排列中选一个
+# np.random.uniform(start,stop,size) #均匀分布
