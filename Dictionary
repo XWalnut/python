@@ -1,0 +1,8 @@
+# 字典由键-值对构成
+dic = {key:value}
+# 遍历字典 for key,value in dic:
+# 删除某个键值对 del dic[key]
+# dic.get(key) 若存在，则返回值，若不存在，则返回None,这里也可以指定不存在时返回什么值
+dic.get(key)
+# 对字典的键进行排序 
+key_list = sorted(dic)
