@@ -1,0 +1,4 @@
+#join函数
+str = '.'
+list = ['2020','01','10']
+print(str.join(list)) # 将列表中元素用str字符连接
