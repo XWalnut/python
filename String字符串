@@ -2,3 +2,10 @@
 str = '.'
 list = ['2020','01','10']
 print(str.join(list)) # 将列表中元素用str字符连接
+
+# 统计字符串出现的次数
+str = 'IamNiuNiu'
+pattern = 'Niu'
+print(str.count(pattern))
+# find查找子字符串下标，未找到时返回-1，index未找到时抛出异常
+print(str.find(pattern))
