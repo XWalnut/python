@@ -1,0 +1,3 @@
+# input输入的默认是字符串
+# 将字符串分割成列表
+str_list = input().split(' ')
