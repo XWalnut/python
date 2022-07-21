@@ -9,3 +9,10 @@ pattern = 'Niu'
 print(str.count(pattern))
 # find查找子字符串下标，未找到时返回-1，index未找到时抛出异常
 print(str.find(pattern))
+
+# 查找字母
+str.isalpha()
+# 是否数字
+str.isdigit()
+# 是否空格
+str.isspace()
