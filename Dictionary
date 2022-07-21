@@ -6,3 +6,6 @@ dic = {key:value}
 dic.get(key)
 # 对字典的键进行排序 
 key_list = sorted(dic)
+
+# 将列表拼接成字典
+fruit_dict = dict(zip(fruit,number))
