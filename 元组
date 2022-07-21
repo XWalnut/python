@@ -1,0 +1,9 @@
+# 元组是不可改变的
+# 将列表转变成元组
+list_tuple = tuple(sequence)
+# 修改元组
+new_tuple = tuple_1 + tuple_2
+# 判断元素是否在元组中
+i in tuple_list
+# 创建元素重复的元组
+new_tuple = (4,)*4
