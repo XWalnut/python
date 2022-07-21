@@ -9,3 +9,6 @@ key_list = sorted(dic)
 
 # 将列表拼接成字典
 fruit_dict = dict(zip(fruit,number))
+
+# python3.6及以后版本，遍历字典时按输入顺序输出
+for key,value in dict.items()
