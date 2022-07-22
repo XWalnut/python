@@ -4,15 +4,18 @@ list = ['2020','01','10']
 print(str.join(list)) # 将列表中元素用str字符连接
 
 # 统计字符串出现的次数
-str = 'IamNiuNiu'
+str_1 = 'IamNiuNiu'
 pattern = 'Niu'
 print(str.count(pattern))
 # find查找子字符串下标，未找到时返回-1，index未找到时抛出异常
 print(str.find(pattern))
 
 # 查找字母
-str.isalpha()
+str_1.isalpha()
 # 是否数字
-str.isdigit()
+str_1.isdigit()
 # 是否空格
-str.isspace()
+str_1.isspace()
+
+# 在中间打印字符串,9表示整行有几个字符，第二个参数表示不满9个字符时用什么填充
+str_1.center(9,' ')
