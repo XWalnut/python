@@ -9,3 +9,11 @@ str_dateTime = datetime.datetime.strptime(str_1,'%Y%m%d %H:%M:%S')
 end_dateTime = datetime.datetime.strptime(str_2,'%Y%m%d %H:%M:%S')
 # 日期相减 .days .hours .seconds
 (end_dateTime - str_dateTime).days #转换成天数
+
+# 进制转换
+num = input()
+print(int(num,16)) # 16进制转换成10进制
+# 十进制转其他进制
+print(hex(int(num))) # 转16进制
+print(bin(int(num))) # 转二进制
+print(oct(int(num))) # 转八进制
