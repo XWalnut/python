@@ -1,3 +1,8 @@
 # 如何查询数据类型
 a = int(input())
 print(type(a))
+
+# map函数
+num = input().split(' ')
+num_list = list(map(int,num))# map 将num与int映射，list将映射结果存在列表中
+print(num_list)
