@@ -14,9 +14,6 @@ print(company_list.index('Tencent'))
 if ele in list:
 # 统计数量
 list.count(element)
-#index找不到则有异常，find找不到返回-1
-list.index(ele)
-list.find(ele)
 
 
 #排序
