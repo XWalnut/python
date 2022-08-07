@@ -46,3 +46,6 @@ print(''.join(friends))#将字符串，这里的friends中元素必须是字符
 # 第三种方法
 print(''.join(str(i) for i in friends))# 这里不限制元素类型
 
+# 判断列表是否为空
+if name_list:
+  print('not empty list')
