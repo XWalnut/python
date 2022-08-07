@@ -49,3 +49,6 @@ print(''.join(str(i) for i in friends))# 这里不限制元素类型
 # 判断列表是否为空
 if name_list:
   print('not empty list')
+if len(name_list) != 0:
+  print('not empty list')
+ 
