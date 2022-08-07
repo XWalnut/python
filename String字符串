@@ -22,3 +22,6 @@ str_1.center(9,' ')
 
 # 字符串截取
 str_1[start:stop:step]
+
+# 字符串替换
+new_word = word.replact(old,new) 
