@@ -6,3 +6,6 @@ print(type(a))
 num = input().split(' ')
 num_list = list(map(int,num))# map 将num与int映射，list将映射结果存在列表中
 print(num_list)
+
+# join函数,用-连接字符串 a-b-c
+'-'.join(str1)
