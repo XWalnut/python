@@ -9,3 +9,6 @@ print(num_list)
 
 # join函数,用-连接字符串 a-b-c
 '-'.join(str1)
+
+# round函数 如果位数不够，就不操作
+round(num,digit) # digit = 0 四舍五入到整数，digit > 0 四舍五入到小数点后digit位，digit < 0 小数点左侧进行四舍五入
