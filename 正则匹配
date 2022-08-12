@@ -37,3 +37,5 @@ print(re.search(parttern,str1,flags=re.M))
 # split：分隔
 # findall查找所有符合条件的组，并放入列表中
 # search：查找满足条件的第一个
+# span表示正则匹配的字符串匹配的起始范围
+re.match('https://www',str_1).span() #(0,11)
